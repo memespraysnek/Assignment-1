@@ -1,0 +1,101 @@
+@Media screen and (min-width: 768px) {
+
+    * {
+        font-family: 'Smooch Sans', sans-serif;
+        background-color: #EBBCBA;
+        font-size: 110%;
+    }
+
+    body {
+        display: flex;
+        flex-direction: column;
+        margin-left: 0;
+    }
+
+    p {
+        font-family: 'Lusitana', serif;
+    }
+
+    nav {
+        float: right;
+    }
+
+    hr {
+        height: 1px;
+        background-color: #EB6F92;
+        border: none;
+        margin-bottom: 0;
+    }
+
+    ul {
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        margin-right: 50px;
+        margin-top:none;
+        justify-content: flex-end;
+    }
+
+    a {
+        text-decoration: none;
+        color: #1F1D2E;
+    }
+
+    li {
+        padding: 10px;
+    }
+
+    button {
+        border: none;
+    }
+
+    
+
+    .buttons {
+        display: flex;
+        flex-direction: row;
+        width: 30%;
+        justify-content: space-between;
+    }
+
+    footer{
+        position: absolute;
+        bottom: 0;
+        display: flex;
+        width:100%;
+        justify-content: center;
+    }
+
+    p {
+        font-size: 80%;
+    }
+    
+    .close {
+        right: 0;
+    }
+
+    .sidebar {
+        display: flex;
+        flex-direction: column;
+        width: 200px;
+        height: 100%
+    }
+
+    .sidebar > ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sidebar, .sidebar > *, .sidebar > * > * , .sidebar > * > * > *{
+        background-color: #EB6F92;
+    }
+
+    .notes {
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+
+}
